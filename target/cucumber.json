@@ -1,0 +1,88 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-14T18:10:15.606Z",
+        "line": 23,
+        "name": "Search for items and validate results",
+        "description": "",
+        "id": "buscar-y-y-ordenar-vegetal;search-for-items-and-validate-results",
+        "after": [
+          {
+            "result": {
+              "duration": 4176000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterClose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4546000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "GreenKart landing page is displayed",
+            "match": {
+              "location": "stepDefinitions.stepsSearch.greenkart_landing_page_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2176000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user searchs for Cucumber vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.stepsSearch.the_user_searchs_for_vegetable(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "\"Cucumber\" results are shown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 1
+                }
+              ],
+              "location": "stepDefinitions.stepsSearch.something_results_are_shown(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SeleniumTest"
+          }
+        ]
+      }
+    ],
+    "name": "Buscar y y ordenar vegetal",
+    "description": "",
+    "id": "buscar-y-y-ordenar-vegetal",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Search.feature",
+    "tags": []
+  }
+]

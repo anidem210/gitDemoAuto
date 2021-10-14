@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.096">
+<testcase classname="Buscar y y ordenar vegetal" name="Search for items and validate results" time="11.027">
+<system-out><![CDATA[Given GreenKart landing page is displayed...................................passed
+When The user searchs for Cucumber vegetable................................passed
+Then "Cucumber" results are shown...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
